@@ -7,7 +7,7 @@ function App() {
     
     const changeName = (e) => {
         e.preventDefault()
-        if (newName.trim() !== '') {  //elimina espcios
+        if (newName.trim()) {  //elimina espcios
             setName(newName)          //cog el valor incertado
             setNewName('')            //limpia
         }
