@@ -1,12 +1,13 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8OQUEE_slEulgaOmTt2Bzwc6w25OpZq7pWQ&s);
+  /* background-repeat: no-repeat; */
+  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -42,7 +43,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #1a1a1ad8;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -55,9 +56,10 @@ button:focus-visible {
 }
 
 li {
+  font-size: 30px;
   list-style: none;
   cursor: pointer;
-  color: blue;
+  color: rgb(117, 216, 236);
 }
 
 @media (prefers-color-scheme: light) {
