@@ -1,5 +1,5 @@
 # Ejercicio: Cambio de Nombre del Profesor
-En este ejercicio tendrás que poner en práctica lo aprendido con useState. Para ello se pide que hagas una lista de nombres de tus profesores y que cada vez que cliques en uno de ellos cambie el nombre del profesor. Los pasos a seguir son los siguientes:
+En este ejercicio tendrás que poner en práctica lo aprendido con useState. Para ello se pide que hagas una lista de nombres de tus profesores preferidos y que cada vez que cliques en uno de ellos cambie el nombre del profesor. Los pasos a seguir son los siguientes:
 
 1. Clonate este repositorio y en el componente funcional `App`, importa `useState` desde React.
 
